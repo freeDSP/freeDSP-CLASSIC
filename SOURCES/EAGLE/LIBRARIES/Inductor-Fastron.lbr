@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="PIS24XX">
+<wire x1="2.95" y1="-2.8" x2="2.95" y2="2.8" width="0.127" layer="21"/>
+<wire x1="2.65" y1="-3.1" x2="-2.65" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-2.8" x2="-2.95" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="3.1" x2="2.65" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-3.1" x2="-2.95" y2="-2.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.65" y1="3.1" x2="2.95" y2="2.8" width="0.127" layer="21" curve="-89.961816"/>
+<wire x1="-2.95" y1="2.8" x2="-2.65" y2="3.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.95" y1="-2.8" x2="2.65" y2="-3.1" width="0.127" layer="21" curve="-90"/>
+<smd name="1" x="-3" y="0" dx="1.9" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="3" y="0" dx="1.9" dy="1.4" layer="1" rot="R90"/>
+</package>
+<package name="PIS28XX">
+<wire x1="3.75" y1="-3.4" x2="3.75" y2="3.4" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-3.75" x2="-3.4" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-3.4" x2="-3.75" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="3.75" x2="3.4" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-3.75" x2="-3.75" y2="-3.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.4" y1="3.75" x2="3.75" y2="3.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.75" y1="3.4" x2="-3.4" y2="3.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.75" y1="-3.4" x2="3.4" y2="-3.75" width="0.127" layer="21" curve="-90"/>
+<smd name="1" x="-3.2" y="0" dx="2.2" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="3.2" y="0" dx="2.2" dy="1.6" layer="1" rot="R90"/>
+</package>
+<package name="PIS47XX">
+<wire x1="6.1" y1="-5.6" x2="6.1" y2="5.6" width="0.127" layer="21"/>
+<wire x1="5.6" y1="-6.1" x2="-5.6" y2="-6.1" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-5.6" x2="-6.1" y2="5.6" width="0.127" layer="21"/>
+<wire x1="-5.6" y1="6.1" x2="5.6" y2="6.1" width="0.127" layer="21"/>
+<wire x1="-5.6" y1="-6.1" x2="-6.1" y2="-5.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="5.6" y1="6.1" x2="6.1" y2="5.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-6.1" y1="5.6" x2="-5.6" y2="6.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.1" y1="-5.6" x2="5.6" y2="-6.1" width="0.127" layer="21" curve="-90"/>
+<smd name="1" x="-4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<smd name="2" x="4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+</package>
+<package name="PISG">
+<circle x="0" y="0" radius="1.97" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2.1" x2="1.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.1" x2="1.5" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2.1" x2="-3.2" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="0.4" x2="-3.2" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-0.4" x2="-1.5" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.1" x2="3.2" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-0.4" x2="3.2" y2="0.4" width="0.127" layer="21"/>
+<wire x1="3.2" y1="0.4" x2="1.5" y2="2.1" width="0.127" layer="21"/>
+<smd name="1" x="-2.73" y="0" dx="1.4" dy="3.56" layer="1"/>
+<smd name="2" x="2.73" y="0" dx="1.4" dy="3.56" layer="1"/>
+</package>
+<package name="PISM">
+<circle x="0" y="0" radius="4.25" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="4.8" x2="3.2" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-4.8" x2="3.2" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1.5" x2="-3.2" y2="4.8" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1.5" x2="3.2" y2="4.8" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-1.5" x2="3.2" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-1.5" x2="-3.2" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1.5" x2="-6.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1.5" x2="6.5" y2="-1.5" width="0.127" layer="21"/>
+<smd name="1" x="-5.15" y="0" dx="3" dy="3" layer="1"/>
+<smd name="2" x="5.15" y="0" dx="3" dy="3" layer="1"/>
+</package>
+<package name="PISR">
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="7.6" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="1.5" x2="-9.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="-1.5" x2="-5.4" y2="-5.4" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="1.5" x2="-5.4" y2="5.4" width="0.127" layer="21"/>
+<wire x1="9.3" y1="1.5" x2="5.4" y2="5.4" width="0.127" layer="21"/>
+<wire x1="9.3" y1="1.5" x2="9.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="9.3" y1="-1.5" x2="5.4" y2="-5.4" width="0.127" layer="21"/>
+<smd name="1" x="-7.8" y="0" dx="3" dy="3" layer="1"/>
+<smd name="2" x="7.8" y="0" dx="3" dy="3" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="L-EU">
+<rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="-1.4986" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="L-EU" prefix="L">
+<gates>
+<gate name="G$1" symbol="L-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PIS24XX" package="PIS24XX">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PIS28XX" package="PIS28XX">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PIS47XX" package="PIS47XX">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PISG" package="PISG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PISM" package="PISM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PISR" package="PISR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
