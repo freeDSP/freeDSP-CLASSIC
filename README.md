@@ -1,5 +1,9 @@
 # freeDSP CLASSIC
 
+BOARD STATUS: READY TO BE BUILT
+
+MAIN COORDINATOR: [sudlud](https://github.com/sudlud)
+
 The freeDSP CLASSIC is a cost-effective real-time audio signal processing solution for researchers and the do-it-yourself community. It is a bare circuit board that can be incorporated into your own projects. It comes with no housing. Easy assembling and simple programmability are the main focus. It is based on Analog Devices’ ADAU1701 DSP chip together with the free graphical development environment SigmaStudio. The programming model is function-block based – comparable to other graphical programming languages like PureData or Max/MSP. Many prebuilt blocks (e.g., filters, compressors, effects, or logic) can be placed in the signal path via drag and drop. If the included libraries do not have the functions needed, low-level blocks, such as multipliers and delays, can be wired together to create custom algorithms.
 
 This board uses MAINLY THT components. The trickiest part is soldering the DSP, which comes in an SMD packaging. A complete SMD version is under development.
