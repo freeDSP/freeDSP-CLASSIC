@@ -1,0 +1,2 @@
+[LINK TO VIEW (AND MODIFY) THE GETTING STARTED GUIDE freeDSP.gdoc IN YOUR BROWSER](https://docs.google.com/open?id=1gQ5PzCN1hFmIgi31e2L5NF1VgZXVvlqLSrGzaxm_bFE)
+
