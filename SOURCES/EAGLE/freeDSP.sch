@@ -18443,6 +18443,14 @@ D13</text>
 <text x="297.18" y="15.24" size="5.08" layer="91">freeDSP 1.1
 
 www.freedsp.cc</text>
+<text x="-20.32" y="190.5" size="2.54" layer="91" font="vector" distance="100">This work and all other materials 
+under https://github.com/freeDSP 
+are licensed under a Creative Commons 
+Attribution Share-Alike 4.0 license. 
+This allows for both personal and 
+commercial derivative works, as long 
+as they credit freeDSP and release 
+their designs under the same license.</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="180.34" y="22.86"/>
